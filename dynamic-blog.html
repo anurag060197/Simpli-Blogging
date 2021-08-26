@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./db.css">
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="nofollow" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="head">
+            <h1>Create Blog</h1>
+        </div>
+        <br/>
+        <form class="container" id="form" >
+            <div class="input-group mb-3">
+                <label for="title" class="form-label"><span class="input-group-text" >&emsp;&nbsp; Title &nbsp;&emsp;</span></label>
+                <input type="text" class="form-control" id="title" placeholder="Title" >
+            </div>
+            
+            <div class="input-group mb-3">
+                <label for="imgurl" class="form-label"><span class="input-group-text" >&nbsp; Image url&nbsp;</span></label>
+                <input type="url" class="form-control" id="imgurl" placeholder="Enter Image URL here..." >
+            </div>
+
+            <div class="input-group mb-3">
+                <label for="description" class="form-label"><span class="input-group-text" >Description</span></label>
+                <input type="text" class="form-control" id="description" placeholder="Description" >
+            </div>
+            
+            <div class="input-group">
+                <label for="content" class="form-label"><span class="input-group-text">&ensp; Content &ensp;</span></label>
+                <input type='textarea' class="form-control" id="content" style="height: 400px;" placeholder="Write here...">
+            </div>
+            <br/>
+            <div id="submit-btn">
+                <a href="./index.html" onclick="submitForm()" class="btn btn-dark" >Post</a>&emsp;
+                <button type="reset" class="btn btn-dark" >Reset</button>
+            </div>
+        </form>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

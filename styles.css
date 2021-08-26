@@ -1,0 +1,33 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+#head{
+    background-color: rgb(94, 92, 89);
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#head > a{
+    height: 40px;
+    margin: 15px 20px 0px 0px;
+    
+}
+#header{
+    font-size: 40px;
+    color: white;
+    padding: 0px 20px;
+}
+#static-blog{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#dynamic-blog{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}

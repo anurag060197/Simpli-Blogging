@@ -1,0 +1,4 @@
+	It's a blog page for the company where people can post newsletters and other informative
+articles and customers can benefit from the content.
+	It has some static blog which is already created. It also has feature to allow user to 
+create his/her own blog. And the user can also see other blogs as well.

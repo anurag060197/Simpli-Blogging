@@ -1,0 +1,8 @@
+body{
+    background-color: rgb(227, 235, 235);
+}
+
+#submit-btn, #head{
+    display: flex;
+    justify-content: center;
+}
